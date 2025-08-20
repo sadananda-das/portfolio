@@ -41,5 +41,8 @@ function animateOnScroll() {
   });
 }
 
+document.querySelector("form").addEventListener("submit", function () {
+  alert("Thanks for your feedback! We'll get back to you soon.");
+});
 window.addEventListener("scroll", animateOnScroll);
 animateOnScroll(); // Run once on page load
